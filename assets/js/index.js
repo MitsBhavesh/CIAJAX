@@ -1,0 +1,1 @@
+$(document).ready(function () {$('#btn').click(function () {$.ajax({url: 'https://api.github.com/users/hadley/orgs',dataType: 'json',success: function (data) {console.log(data);},});});});
